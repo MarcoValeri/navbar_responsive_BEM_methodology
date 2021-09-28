@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Responsive navbar with BEM</title>
+    </head>
+    <body>
+        <nav class="navbar">
+			<section class="navbar__toggle">
+				<input class="navbar__input" type="checkbox"/>
+				<span class="navbar__span"></span>
+				<span class="navbar__span"></span>
+				<span class="navbar__span"></span>
+				<ul class="navbar__menu">
+					<section class="navbar__logo">
+						<li class="navbar__element">
+							<a class="navbar__link brand-name" href="#">Name of the website</a>
+						</li>
+					</section>
+					<section class="navbar__items">
+						<li class="navbar__element navbar__element--mark">
+							<a class="navbar__link" href="#">Home</a>
+						</li>
+						<li class="navbar__element">
+							<a class="navbar__link" href="#">Chi sono</a>
+						</li>
+						<li class="navbar__element">
+							<a class="navbar__link" href="#">Gallery</a>
+						</li>
+						<li class="navbar__element">
+							<a class="navbar__link" href="#">Blog</a>
+						</li>
+						<li class="navbar__element">
+							<a class="navbar__link" href="#">Contatti</a>
+						</li>
+					</section>
+				</ul>
+			</section>
+		</nav>
+    </body>
+</html>
